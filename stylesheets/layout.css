@@ -1,0 +1,170 @@
+/* 
+* Skeleton V1.0.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 5/20/2011
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+	
+/* #Site Styles
+================================================== */
+
+body
+{ margin: 0;
+  padding: 10px;
+  word-wrap: break-word;
+/*	background: url(../images/world.png) no-repeat center -190px;
+		background: url(../images/pattern.png) repeat;*/
+	background: url(../images/pattern_white.gif) repeat;
+}
+
+.mobile {
+	margin: 70px auto 0;text-align: center;
+	-webkit-animation-duration: .6s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-name: pop;
+  -webkit-animation-timing-function: ease-in;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: 0 1 0px rgba(0,0,0,0.2);
+  -webkit-font-smoothing: antialiased;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(56,81,126,0.95)), to(rgba(9,26,56,0.95)) );
+  border: 1px solid rgba(15,15,15,0.6);
+  border-bottom: 1px solid rgba(0,0,0,1);
+  color: rgba(255,255,255,0.9);
+  font: 22px/1.4 "Helvetica","Helvetica Neue", Arial, sans;
+  text-shadow: 0px -1px 0px black;
+}
+
+
+.mobile>div {
+	 -webkit-border-radius: 4px;
+  border-top: 1px solid rgba(106,136,188,.71);
+  border-bottom: 1px solid rgba(106,136,188,0.1);
+    border-left: 1px solid rgba(106,136,188,.2);
+  padding: 0 0 20px;
+}
+.mobile h1 {
+	background-size: 260px auto;
+	background: url(../images/hintin.png) no-repeat;
+	text-indent: -999em;
+	
+	width: 260px;
+	padding: 0;
+	margin: 10px auto 0;
+	height: 120px;
+}
+
+.mobile h2 {
+	color: white;
+	font-size: 31px;
+	font-weight: bold;
+	text-align: left;
+	width: 260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form_transparent {
+	border-radius: 4px;width: 89%;
+	margin-bottom: 10px;
+	font-size: 19px;
+}
+
+
+/*
+.notification>div
+{ -webkit-border-radius: 4px;
+  border-top: 1px solid rgba(106,136,188,1);
+  border-bottom: 1px solid rgba(106,136,188,0.1);
+}
+
+.notification>div>div
+{ -webkit-border-radius: 4px;
+  border-left: 1px solid rgba(106,136,188,0.1);
+  border-left: 1px solid rgba(106,136,188,0.1);
+  overflow: hidden;
+  padding: 6px 10px;
+}*/
+
+/*.title
+{ -webkit-transition: all 0.2s linear;
+  color: rgba(255,255,255,1);
+  margin: 0 0 2px 0;
+  padding: 0 0 0 25px;
+}*/
+
+
+.btn {
+	/*width: 280px;*/
+	width: 100%;
+			-webkit-border-radius: 4px;
+		border-radius: 4px;
+	font-size: 20px;
+}
+@-webkit-keyframes pop {
+    from {
+        -webkit-transform: scale(.1);
+        opacity: 0;
+    }
+    85% {
+        -webkit-transform: scale(1.05);
+        opacity: 1;
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+	
+	/* iPad Portrait/Browser */
+	@media only screen and (min-width: 768px) and (max-width: 991px) {}
+	
+	/* Mobile/Browser */
+	@media only screen and (max-width: 767px) {}
+	
+	/* Mobile Landscape/Browser */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	
+	/* Anything smaller than standard 960 */
+	@media only screen and (max-width: 959px) {}
+	
+	/* iPad Portrait Only */
+	@media only screen and (min-width: 768px) and (max-width: 991px) and (max-device-width: 1000px) {}
+	
+	/* Mobile Only */
+	@media only screen and (max-width: 767px) and (max-device-width: 1000px) {}
+	
+	/* Mobile Landscape Only */
+	@media only screen and (min-width: 480px) and (max-width: 767px) and (max-device-width: 1000px) {}
+	
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file 
+		Just create a "fonts" folder at the root, 
+		copy your FontName into code below and remove
+		comment brackets */
+		
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/
