@@ -41,6 +41,10 @@ body
   color: rgba(255,255,255,0.9);
   font: 22px/1.4 "Helvetica","Helvetica Neue", Arial, sans;
   text-shadow: 0px -1px 0px black;
+  
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.6);
+box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.6);
 }
 
 
@@ -53,13 +57,12 @@ body
 }
 .mobile h1 {
 	background-size: 260px auto;
-	background: url(../images/hintin.png) no-repeat;
-	text-indent: -999em;
 	
-	width: 260px;
 	padding: 0;
 	margin: 10px auto 0;
 	height: 120px;
+	color: #fefefe;
+	font: normal normal 70px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 .mobile h2 {
